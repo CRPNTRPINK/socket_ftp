@@ -1,0 +1,64 @@
+server.py [LINE:21] #INFO     [2021-05-23 23:36:00,941]  ('127.0.0.1', 51787)
+auth.py [LINE:17] #INFO     [2021-05-23 23:36:03,140]  Добро пожаловать soa 123
+server.py [LINE:35] #INFO     [2021-05-23 23:36:05,204]  ('127.0.0.1', 51787): /Users/islamagiev/Desktop/Python/FTP/users_directory/soa: hello
+server.py [LINE:35] #INFO     [2021-05-23 23:36:07,783]  ('127.0.0.1', 51787): /Users/islamagiev/Desktop/Python/FTP/users_directory/soa: get list
+server.py [LINE:21] #INFO     [2021-05-23 23:37:17,989]  ('127.0.0.1', 51794)
+auth.py [LINE:26] #INFO     [2021-05-23 23:37:21,763]  Учетная запись SOA 123 создана
+server.py [LINE:21] #INFO     [2021-05-23 23:37:43,624]  ('127.0.0.1', 51796)
+auth.py [LINE:17] #INFO     [2021-05-23 23:37:48,571]  Добро пожаловать SOA_ADMIN 123
+server.py [LINE:35] #INFO     [2021-05-23 23:37:52,118]  ('127.0.0.1', 51796): /Users/islamagiev/Desktop/Python/FTP/users_directory: pwd
+server.py [LINE:35] #INFO     [2021-05-23 23:37:54,087]  ('127.0.0.1', 51796): /Users/islamagiev/Desktop/Python/FTP/users_directory: get list
+server.py [LINE:21] #INFO     [2021-05-23 23:39:16,115]  ('127.0.0.1', 51902)
+auth.py [LINE:17] #INFO     [2021-05-23 23:39:18,538]  Добро пожаловать SOA 123
+server.py [LINE:35] #INFO     [2021-05-23 23:39:20,358]  ('127.0.0.1', 51902): /Users/islamagiev/Desktop/Python/FTP/client_path/SOA: pwd
+server.py [LINE:35] #INFO     [2021-05-23 23:39:23,098]  ('127.0.0.1', 51902): /Users/islamagiev/Desktop/Python/FTP/client_path/SOA: get list
+server.py [LINE:35] #INFO     [2021-05-23 23:39:34,535]  ('127.0.0.1', 51902): /Users/islamagiev/Desktop/Python/FTP/client_path/SOA: create -d soa_path_in_SOA_PATH
+server.py [LINE:35] #INFO     [2021-05-23 23:39:38,637]  ('127.0.0.1', 51902): /Users/islamagiev/Desktop/Python/FTP/client_path/SOA: get list
+server.py [LINE:21] #INFO     [2021-05-23 23:41:47,287]  ('127.0.0.1', 52009)
+auth.py [LINE:26] #INFO     [2021-05-23 23:41:48,999]  Учетная запись soa 123 создана
+server.py [LINE:35] #INFO     [2021-05-23 23:41:50,284]  ('127.0.0.1', 52009): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: get list
+server.py [LINE:21] #INFO     [2021-05-23 23:42:24,237]  ('127.0.0.1', 52011)
+server.py [LINE:45] #ERROR    [2021-05-23 23:42:24,237]  list index out of range
+Traceback (most recent call last):
+  File "/Users/islamagiev/Desktop/Python/FTP/socket_path/server.py", line 33, in connect
+    client_message = recv.split(':')[1].strip()
+IndexError: list index out of range
+server.py [LINE:21] #INFO     [2021-05-23 23:43:46,233]  ('127.0.0.1', 52020)
+server.py [LINE:35] #INFO     [2021-05-23 23:43:46,239]  ('127.0.0.1', 52020): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: pwd
+server.py [LINE:45] #ERROR    [2021-05-23 23:43:46,240]  list index out of range
+Traceback (most recent call last):
+  File "/Users/islamagiev/Desktop/Python/FTP/socket_path/server.py", line 33, in connect
+    client_message = recv.split(':')[1].strip()
+IndexError: list index out of range
+server.py [LINE:21] #INFO     [2021-05-23 23:44:08,389]  ('127.0.0.1', 52024)
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,391]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: pwd
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,392]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: create -d test_package
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,395]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: move in test_package
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,396]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: move up
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,396]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: remove -d test_package
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,396]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: create -f unit.txt
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,397]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: write -f unit.txt hello
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,398]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: read -f unit.txt
+server.py [LINE:35] #INFO     [2021-05-23 23:44:08,398]  ('127.0.0.1', 52024): /Users/islamagiev/Desktop/Python/FTP/client_path/unit: remove -f unit.txt
+server.py [LINE:45] #ERROR    [2021-05-23 23:44:08,400]  list index out of range
+Traceback (most recent call last):
+  File "/Users/islamagiev/Desktop/Python/FTP/socket_path/server.py", line 33, in connect
+    client_message = recv.split(':')[1].strip()
+IndexError: list index out of range
+server.py [LINE:21] #INFO     [2021-05-23 23:46:33,160]  ('127.0.0.1', 52049)
+auth.py [LINE:26] #INFO     [2021-05-23 23:46:34,968]  Учетная запись soa 123 создана
+server.py [LINE:35] #INFO     [2021-05-23 23:46:36,344]  ('127.0.0.1', 52049): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: get list
+server.py [LINE:35] #INFO     [2021-05-23 23:46:37,115]  ('127.0.0.1', 52049): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: pwd
+server.py [LINE:35] #INFO     [2021-05-23 23:46:38,589]  ('127.0.0.1', 52049): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: pwd
+server.py [LINE:21] #INFO     [2021-05-23 23:47:35,983]  ('127.0.0.1', 52150)
+auth.py [LINE:17] #INFO     [2021-05-23 23:48:01,206]  Добро пожаловать soa 123
+server.py [LINE:35] #INFO     [2021-05-23 23:48:46,763]  ('127.0.0.1', 52150): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: downloads -s /Users/islamagiev/Desktop/file.txt .
+server.py [LINE:35] #INFO     [2021-05-23 23:48:57,906]  ('127.0.0.1', 52150): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: download -s /Users/islamagiev/Desktop/file.txt .
+server.py [LINE:35] #INFO     [2021-05-23 23:49:05,162]  ('127.0.0.1', 52150): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: get list
+server.py [LINE:21] #INFO     [2021-05-23 23:49:34,438]  ('127.0.0.1', 52162)
+auth.py [LINE:17] #INFO     [2021-05-23 23:49:36,364]  Добро пожаловать soa 123
+server.py [LINE:35] #INFO     [2021-05-23 23:49:38,348]  ('127.0.0.1', 52162): /Users/islamagiev/Desktop/Python/FTP/client_path/soa: get list
+server.py [LINE:21] #INFO     [2021-05-23 23:49:50,893]  ('127.0.0.1', 52163)
+auth.py [LINE:26] #INFO     [2021-05-23 23:49:56,286]  Учетная запись SOA_SOA 123 создана
+server.py [LINE:35] #INFO     [2021-05-23 23:49:58,048]  ('127.0.0.1', 52163): /Users/islamagiev/Desktop/Python/FTP/client_path/SOA_SOA: get list
+server.py [LINE:35] #INFO     [2021-05-23 23:49:59,734]  ('127.0.0.1', 52163): /Users/islamagiev/Desktop/Python/FTP/client_path/SOA_SOA: pwd
